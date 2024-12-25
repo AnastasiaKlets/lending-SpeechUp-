@@ -1,0 +1,20 @@
+.video{
+  margin: 100px 0;
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    span{
+      font-weight: 700;
+      font-size: 36px;
+      text-transform: uppercase;
+      color: #37476a;
+    }
+    &_video{
+      width: 100%;
+      border-radius: 40px ;
+    }
+  }
+}
