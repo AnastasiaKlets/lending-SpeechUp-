@@ -2199,7 +2199,7 @@
 
     return element.offsetParent;
   } // `.offsetParent` reports `null` for fixed elements, while absolute elements
-  // return the containing block
+  // return the containing blocks
 
 
   function getContainingBlock(element) {
@@ -2207,7 +2207,7 @@
     var isIE = navigator.userAgent.indexOf('Trident') !== -1;
 
     if (isIE && isHTMLElement(element)) {
-      // In IE 9, 10 and 11 fixed elements containing block is always established by the viewport
+      // In IE 9, 10 and 11 fixed elements containing blocks is always established by the viewport
       var elementCss = getComputedStyle$1(element);
 
       if (elementCss.position === 'fixed') {
@@ -2219,7 +2219,7 @@
 
     while (isHTMLElement(currentNode) && ['html', 'body'].indexOf(getNodeName(currentNode)) < 0) {
       var css = getComputedStyle$1(currentNode); // This is non-exhaustive but covers the most common CSS properties that
-      // create a containing block.
+      // create a containing blocks.
       // https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block#identifying_the_containing_block
 
       if (css.transform !== 'none' || css.perspective !== 'none' || css.contain === 'paint' || ['transform', 'perspective'].indexOf(css.willChange) !== -1 || isFirefox && css.willChange === 'filter' || isFirefox && css.filter && css.filter !== 'none') {

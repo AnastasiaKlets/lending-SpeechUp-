@@ -1,0 +1,93 @@
+@media (max-width:1340px) {
+  .achievements{
+    margin-bottom: 100px;
+    &_wrapper{
+      gap: 40px;
+      h2{
+        font-size: 30px;
+      }
+      &_blocks{
+        gap: 25px;
+        &_block{
+          gap: 18px;
+          &_text{
+            font-size: 22px;
+            &_link{
+              gap: 5px;
+              &_title{
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .achievements{
+    margin-bottom: 80px;
+    &_wrapper{
+      gap: 30px;
+      h2{
+        font-size: 25px;
+      }
+      &_blocks{
+        gap: 20px;
+        &_block{
+          gap: 16px;
+          &_text{
+            font-size: 20px;
+            &_link{
+              gap: 4px;
+              &_title{
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .achievements{
+    margin-bottom: 50px;
+    &_wrapper{
+      gap: 24px;
+      h2{
+        font-size: 16px;
+      }
+      &_blocks{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        &_block{
+          gap: 16px;
+          &_text{
+            font-size: 14px !important;
+            gap: 6px;
+            p{
+              margin: 0;
+            }
+            &_link{
+              gap: 4px;
+              &_title{
+                font-size: 12px;
+              }
+            }
+          }
+          &_img{
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}

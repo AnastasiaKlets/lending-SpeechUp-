@@ -1,0 +1,17 @@
+@import 'achievements';
+@import "partner";
+.mob{
+  display: none;
+}
+@media (max-width: 768px) {
+  .des{
+    display: none;
+  }
+  .mob{
+    display: inline;
+
+  }
+  .container {
+    width: 92%;
+  }
+}

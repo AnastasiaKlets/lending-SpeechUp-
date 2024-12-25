@@ -1,0 +1,29 @@
+* {
+  font-family:'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1761px;
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.br {
+  display: none;
+}
+button{
+  cursor: pointer;
+}
+span{
+  cursor: default;
+}
+@import "blocks/title";
+@import "blocks/achievements";
+@import "blocks/partner";
+@import "media/general";
